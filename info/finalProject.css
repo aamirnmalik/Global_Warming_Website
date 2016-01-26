@@ -70,6 +70,10 @@ p{
     text-align: center;
 }
 a{
+<<<<<<< HEAD
+=======
+    /*
+>>>>>>> upstream/master
 	margin: 5px;
 	padding: 5px;
     display: inline-block;
@@ -77,6 +81,12 @@ a{
     color: #000;
     font-family: Arial, sans-serif;
     color: red;
+<<<<<<< HEAD
+=======
+    font-style: italic;*/
+    text-decoration: none;
+    color: black;
+>>>>>>> upstream/master
     font-style: italic;
 }
 
@@ -155,4 +165,13 @@ li:hover .dropdown li{
 
 .cli:hover a {
     color: blue;
+<<<<<<< HEAD
+=======
+}
+
+.logoimg{
+    float: left;
+    margin-left: 50px;
+
+>>>>>>> upstream/master
 }
