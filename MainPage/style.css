@@ -99,10 +99,15 @@ li:hover .dropdown li{
 	border-color: black;
 }
 .lefter{
-	margin-left: 80px;
 	float: left;
+	margin-left: 150px;
+	text-align: center;
 }
-.framesR{
+.righter{
 	float: left;
-	margin-left: 10px;
+	margin-left: 50px;
+	text-align: center;
+}
+.h2{
+
 }
