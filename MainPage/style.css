@@ -75,6 +75,7 @@ li:hover .dropdown li{
 	margin-left: 80px;
 
 }
+
 .mainertxt{
 	position: absolute;
 	text-align: center;
@@ -85,7 +86,12 @@ li:hover .dropdown li{
 	left: 30%;
 }
 .mainerHERE{
-	color:blue;
+	color:red;
+}
+.mainerHERE:hover {
+	color: blue;
+	font-style:normal;
+
 }
 .donate{
 	background-color: orange;
