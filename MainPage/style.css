@@ -138,3 +138,11 @@ h1{
 br{
 	clear: both;
 }
+@media (max-width: 1350px) { 
+	.lefter{
+		margin-left: 4%;
+	}
+	.righter{
+		margin-left: 2%;
+	}
+ }
