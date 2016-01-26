@@ -113,15 +113,28 @@ h1{
 	color: white;
 }
 .footer {
+	margin-top: 50px;
 	clear: left;
 	padding: 1rem;
 	padding-top: 0;
-  background-color: rgba(76, 76, 76, 0.77);own;
+  background-color: rgba(76, 76, 76, 0.77);
   height: 130px;
   color: white;
 }
 .footerLeft{
 	float: left;
-	margin-left: 70px;
+	margin-left: 100px;
 	width: 300px;
+}
+.footerMiddle{
+	float: left;
+	margin-left: 200px;
+	width: 300px;
+}
+.footerRight{
+	float: left;
+	width: 550px;
+}
+br{
+	clear: both;
 }
