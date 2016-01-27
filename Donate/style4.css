@@ -41,6 +41,16 @@ li{
 
 }
 
+li:hover a{
+	color: green;
+	font-weight: 900;
+
+}
+
+li:hover .dropdown li{
+	display: block;
+
+}
 
 
 h1{
