@@ -72,6 +72,8 @@ li:hover .dropdown li{
 }
 .mainer{
 	margin-left: 80px;
+	width: 90%;
+	height: 700px;
 
 }
 
@@ -86,7 +88,9 @@ li:hover .dropdown li{
 }
 .mainerHERE{
 	color:red;
+	
 }
+
 .mainerHERE:hover {
 	color: blue;
 	font-style:normal;
@@ -144,11 +148,8 @@ h1{
 br{
 	clear: both;
 }
-/*GROW*/
-.grow img {
-  height: 700px;
-  width: 90%;
- 
+
+.bw {
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
        -o-transition: all 1s ease;
@@ -156,9 +157,10 @@ br{
           transition: all 1s ease;
 }
  
-.grow img:hover {
-  height: 600px;
+.bw:hover {
+  -webkit-filter: grayscale(100%);
 }
+
 @media (max-width: 1350px) { 
 	.lefter{
 		margin-left: 4%;
