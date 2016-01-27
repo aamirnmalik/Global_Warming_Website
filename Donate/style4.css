@@ -248,3 +248,7 @@ button{
 	font-size:170%;
 	font-style: inherit;
 }
+
+#close{
+	display: none;
+}
