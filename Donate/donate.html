@@ -13,9 +13,9 @@
 		<nav class = "formybar">
 			<ul >
 				<li><a class="formybar" href="../MainPage/index.html">Home</a></li>
-				<li><a class="formybar" href="">Contact</a></li>
-				<li><a class="formybar" href= " "> About</a></li>
-				<li><a class= "formybar" href="">FQL</a></li>
+				<li><a class="formybar" href="../info/finalProject.html">Information</a></li>
+				<li><a class="formybar" href= " ">Contact</a></li>
+				<li><a class= "formybar" href="">About</a></li>
 
 			</ul>
 		</nav>
@@ -25,37 +25,42 @@
 			</p>
 
 			<form>
-				First name:
+				<label for "name"> First name:</label>
 				<input type = "text" name = "firstanme"><br>
 				<br>
-				Last name:
+				<label for "name">Last name:</label>
 				<input type = "text" name = "lastname"><br>
 				<br>
-				    Email:    
-				<input type = "text" name = "email"><br>
+				 <label for "mail">Email:</label>
+				<input type = "text" name = "email"><br><br>
 
+			
+				<input  class="rad" type = "radio" name="money" value = 10 checked>   $10<br>
+				<input  class="rad" type = "radio" name="money" value = 25>   $20<br>
+				<input  class="rad" type = "radio" name="money" value = 35>   $35<br>
+				<input  class="rad" type = "radio" name="money" value = 45>   $45<br>
+				<input  class="rad" type = "radio" name="other" value = "other"> other<br>
+			
+				<label for "name">Amount:</label>
+				<input type ="text" name = "amount"><br><br>
+				<button type = "submit">submit</button>
 			</form>
-
-			<form>
-				<input type = "radio" name="money" value = 10 checked> $10<br>
-				<input type = "radio" name="money" value = 25> $20 <br>
-				<input type = "radio" name="money" value = 35> $35 <br>
-				<input type = "radio" name="money" value = 45> $45 <br>
-				<input type = "radio" name="other" value = "other"> other<br>
-			</form>
-			<form>
-				Other amount:
-				<input tpe ="text" name = "amount"><br>
-			</form>
-
-			<a href="">Submit</a>
 
 		</div>
 		
 		<div >
-			<img class = "image" src="http://portlandsolidarity.org/wp-content/uploads/2015/05/donate-button.gif">
-			<img class = "image" src="http://static.wixstatic.com/media/871218_2c070ce123304a48bcbcb6a2f9011b21.gif">
-			<img class = "image" src="http://www.alz.org/ri/images/donate-button.png"> 
+			<a href="https://www.paypal.com/home" target="_blank">
+				<img class = "image" src="http://portlandsolidarity.org/wp-content/uploads/2015/05/donate-button.gif">
+			</a>
+			
+			<a href="https://www.redcross.org/donate/nn-0116" target="_blank">
+				<img class = "image" src="http://static.wixstatic.com/media/871218_2c070ce123304a48bcbcb6a2f9011b21.gif">
+			</a>
+			
+			<a href="https://m.nyseg.com/mt/www.nyseg.com/YourAccount/payyourbill/paymentoptions/creditcard.html" target="_blank">
+				<img class = "image" src="http://www.alz.org/ri/images/donate-button.png">
+			</a>
+			 
 		</div>
 		
 
@@ -65,51 +70,27 @@
 				your brower does ont support this video tag!
 		</video>
 		
-		<form class="myform" action="#">
-			<h2>Leave your message </h2>
-
+		<form action = "" method="post">
 			<div>
-				<label class="desc" id="title4" for "Field4">
-					Message
-				</label>
-
-				<div>
-					<textarea id="Field4" name="Field4" spellcheck ="true" row="5" cols = "80" tabindex="4">
-					</textarea>
-				</div>
+				<label for "name">Name:</label>
+				<input type = "text" id="name"/> 
 			</div>
 
 			<div>
-    <fieldset>
-    
-      <legend id="title5" class="desc">
-        Select a Choice
-      </legend>
-      
-      <div>
-      	<input id="radioDefault_5" name="Field5" type="hidden" value="">
-      	<div>
-      		<input id="Field5_0" name="Field5" type="radio" value="First Choice" tabindex="5" checked="checked">
-      		<label class="choice" for="Field5_0">Great Program</label>
-      	</div>
-        <div>
-        	<input id="Field5_1" name="Field5" type="radio" value="Second Choice" tabindex="6">
-        	<label class="choice" for="Field5_1">Need to improve</label>
-        </div>
-        <div>
-        	<input id="Field5_2" name="Field5" type="radio" value="Third Choice" tabindex="7">
-        	<label class="choice" for="Field5_2">Not good at all</label>
-        </div>
-      </div>
-    </fieldset>
-  </div>
-		<div>
-  			<div>
-  				<input id="saveForm" name="saveForm" type="submit" value="Submit">
-   			</div>
-		</div>
+				<label for "mail">E-mail:</label>
+				<input type = "email" id="mail"/>
+			</div>
 
-		</form>
+			<div>
+				<label for="msg">Message:</label>
+				<textarea id="msg">Please give us your opinions</textarea>
+			</div>
+
+			<div class ="button">
+				<button type = "submit">Send your message</button>
+			</div>
+
+		</from>
 
 
 	</body>
