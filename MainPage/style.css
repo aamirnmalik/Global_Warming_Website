@@ -149,7 +149,7 @@ br{
 	clear: both;
 }
 
-.bw {
+.mainer {
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
        -o-transition: all 1s ease;
@@ -157,8 +157,17 @@ br{
           transition: all 1s ease;
 }
  
-.bw:hover {
+.mainer:hover {
   -webkit-filter: grayscale(100%);
+}
+.twtr:hover {
+  width: 70px;
+}
+
+
+.share{
+	position: fixed;
+	margin-top: 260px;
 }
 
 @media (max-width: 1350px) { 
