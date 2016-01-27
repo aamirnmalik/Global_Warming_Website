@@ -24,20 +24,19 @@ $(document).ready(function(){
 
 	$("#buttonThree").click(function(e){
 		$("#buttonThree").hide();
+		$("#last").hide();
 		$(".video").show();
-		// $("#last").hide();
-		// $("#firstP").show();
-		// $("#formOne").show();
-		// $("#buttonOne").show();
+		$("#close").show();
 		e.preventDefault();
 	})
-	$("#last").click(function(e){
+	$("#close").click(function(e){
 		
 		$(".video").hide();
 		$("#last").hide();
 		$("#firstP").show();
 		$("#formOne").show();
 		$("#buttonOne").show();
+		$("#close").hide();
 		e.preventDefault();
 	})
 })
