@@ -144,6 +144,21 @@ h1{
 br{
 	clear: both;
 }
+/*GROW*/
+.grow img {
+  height: 700px;
+  width: 90%;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  height: 600px;
+}
 @media (max-width: 1350px) { 
 	.lefter{
 		margin-left: 4%;
