@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<script src="donateJs.js"></script>
 		<script src="jquery-2.2.0.js"></script>
+		<script src="donateJs.js"></script>
+		
 		<title>Donate</title>
 	</head>
 	<link rel="stylesheet" tyle = "text/css" href = "style4.css">
 	<body>
-		<h1 class = "one"> Thank you for your donation </h1>
-		<img class = "img" src="http://www.bair.org/portals/0/Images/Donate/donate%20button9.jpg" alt = "news photo" height = "20%" width="20%">
 		
-		<nav class = "formybar">
-			<ul >
-				<li><a class="formybar" href="../MainPage/index.html">Home</a></li>
-				<li><a class="formybar" href="../info/finalProject.html">Information</a></li>
-				<li><a class="formybar" href= " ">Contact</a></li>
-				<li><a class= "formybar" href="">About</a></li>
-
+		
+		<nav class="nav-bar">
+			<img class="logoimg" src="logerr.png" alt = "logo" height="120" width="300">
+			<ul class="cul">
+				<li>
+					<a class = "ca" href="../MainPage/index.html">Home</a>
+					
+				</li>
+				
+				<li>
+					<a class = "ca" href="../info/finalProject.html">Information</a>
+					
+				</li>
+				<li>
+					<a class = "ca" href="#">Contact</a>
+					
+				</li>				
+				<li id = "donateLi">
+					<a class = "ca" href="../Donate/donate.html" class="donate">DONATE</a>
+				</li>
 			</ul>
 		</nav>
+		<br><br><br><br><br><br><br><br><br>
+
+		<h1 class = "one"> Thank you for your donation </h1>
+		<!-- <img class = "img" src="http://www.bair.org/portals/0/Images/Donate/donate%20button9.jpg" alt = "news photo" height = "20%" width="20%"> -->
+
 		<div class = "fdiv">
-			<p>
+			<p id ="firstP">
 			Queens College, the NYC Tech Talent Pipeline, and the New York Code + Design Academy have partnered to launch the Tech Talent Pipeline Residency at Queens College, a program designed to help enhance your learning by gaining real world experience in technology.
 			</p>
 
-			<form>
+			<form id="formOne">
 				<label for "name"> First name:</label>
 				<input type = "text" name = "firstanme"><br>
 				<br>
@@ -43,34 +60,19 @@
 			
 				<label for "name">Amount:</label>
 				<input type ="text" name = "amount"><br><br>
-				<button type = "submit">submit</button>
+				<form>
+					<button id = "buttonOne">Donate</button>
+				</form>
 			</form>
 
-		</div>
-		
-		<div >
-			<a href="https://www.paypal.com/home" target="_blank">
-				<img class = "image" src="http://portlandsolidarity.org/wp-content/uploads/2015/05/donate-button.gif">
-			</a>
 			
-			<a href="https://www.redcross.org/donate/nn-0116" target="_blank">
-				<img class = "image" src="http://static.wixstatic.com/media/871218_2c070ce123304a48bcbcb6a2f9011b21.gif">
-			</a>
-			
-			<a href="https://m.nyseg.com/mt/www.nyseg.com/YourAccount/payyourbill/paymentoptions/creditcard.html" target="_blank">
-				<img class = "image" src="http://www.alz.org/ri/images/donate-button.png">
-			</a>
-			 
-		</div>
 		
+		<p class = "thankyou">
+			<div class = "thankyou" >Appreciate for your donation</div>
+			<div class = "thankyou"> We would love to hear more from you</div>
+		<p>
 
-
-		<video class="video" width="100%" height="500" autoplay>
-			<source src="d.mp4" type = "video/mp4">
-				your brower does ont support this video tag!
-		</video>
-		
-		<form action = "" method="post">
+		<form id = "formTwo" action = "" method="post">
 			<div>
 				<label for "name">Name:</label>
 				<input type = "text" id="name"/> 
@@ -85,12 +87,56 @@
 				<label for="msg">Message:</label>
 				<textarea id="msg">Please give us your opinions</textarea>
 			</div>
-
-			<div class ="button">
-				<button type = "submit">Send your message</button>
-			</div>
+	
+			<!-- <div class ="button">
+				
+			</div> -->
+			<br>
 
 		</from>
+
+		<form>
+			<button id = "buttonTwo">Send your message</button>
+		</form>
+
+		<p id="last">Thank You, bless you! </p>
+
+		<form>
+			<button id = "buttonThree">Play Video</button>
+		</form>
+
+		<p id = "close">Enjoy the video! (click me for close video)</p>
+		
+		<video class="video" width="100%" height="400" autoplay>
+			<source src="d.mp4" type = "video/mp4">
+				your brower does ont support this video tag!
+		</video>
+		
+		</div>
+		
+		<div >
+			<a href="https://www.paypal.com/home" target="_blank">
+				<img class = "image" src="http://portlandsolidarity.org/wp-content/uploads/2015/05/donate-button.gif">
+			</a>
+			
+			<a href="https://www.redcross.org/donate/nn-0116" target="_blank">
+				<img class = "imageTwo" src="http://static.wixstatic.com/media/871218_2c070ce123304a48bcbcb6a2f9011b21.gif">
+			</a>
+			
+			<a href="https://m.nyseg.com/mt/www.nyseg.com/YourAccount/payyourbill/paymentoptions/creditcard.html" target="_blank">
+				<img class = "imageThree" src="http://www.alz.org/ri/images/donate-button.png">
+			</a>
+			 
+		</div>
+		
+
+
+		<!-- <video class="video" width="100%" height="500" autoplay>
+			<source src="d.mp4" type = "video/mp4">
+				your brower does ont support this video tag!
+		</video> -->
+		
+		
 
 
 	</body>
