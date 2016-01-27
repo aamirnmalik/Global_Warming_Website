@@ -19,4 +19,12 @@ $(document).ready(function(){
 		$("#last").show();
 		e.preventDefault();
 	});
+
+	$("#last").click(function(){
+		$("#last").hide();
+		$("#firstP").show();
+		$("#formOne").show();
+		$("#buttonOne").show();
+		
+	})
 })
