@@ -212,6 +212,22 @@ textarea{
 	padding-left: 90px;
 }
 
+
 button{
 	margin-left:.5em;
+}
+
+.thankyou{
+	display: none;
+}
+
+#buttonOne{
+	font-size:110%;
+	font-style: italic;
+}
+
+#last{
+	display:none;
+	font-size:170%;
+	font-style: inherit;
 }
